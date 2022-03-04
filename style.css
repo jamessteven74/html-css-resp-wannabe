@@ -73,10 +73,12 @@ img {
 }
 
 @media screen and (max-width: 480px) {
-  #lezioni, .container {
+  .row {
   background-color: #F2F2CD;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
 
   }
 }
